@@ -1,0 +1,13 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    env_file:
+      - ./backend/.env.example
+    environment:
+      SURYA_DATA_ROOT: /data
+    volumes:
+      - ./:/data:ro
+    ports:
+      - "8000:8000"
+
