@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Forecasting-and-or-Nowcasting-of-Solar-Flares-using-combined-Soft-and-Hard-X-ray-data-from-Aditya-L1
 
 ---
@@ -249,3 +250,21 @@ The challenge is identifying subtle precursor signatures before the eruption.
 
       Alert Generation
 ```
+=======
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/391b8b10-efb3-4ccb-b7d8-3e4816004b8c
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
+>>>>>>> a2a99f11192b719874e46784080a3557b02e67eb
