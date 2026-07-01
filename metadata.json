@@ -1,0 +1,6 @@
+{
+  "name": "Cosmic AI Sandbox",
+  "description": "An interactive prompt engineering playground and creative canvas powered by Gemini 3.5.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
